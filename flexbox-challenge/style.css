@@ -74,12 +74,18 @@ body {
 
 .article {
   background-color: #824936;
+  color: #fff;
 }
 
 .article:first-of-type {
   background-color: #222c2a;
 }
 
+.primary-content__text {
+  width: 50%;
+}
+
 .primary-content__text .title {
   color: #f3eed9;
+  margin-block-start: 0;
 }
